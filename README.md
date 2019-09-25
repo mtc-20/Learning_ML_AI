@@ -4,7 +4,7 @@ This repository contains my first Machine Learning Projects, forked from @quangn
 <br><br>Below are brief descriptions and images about the projects: 
 
 - [**Dog and Cat classification project**](https://github.com/mtc-20/Machine_learning_projects/blob/MTC/Dog_Cat_classification/CatDogModel.ipynb)  
-  - Dataset: http://bit.ly/30k1jgs contains 25,000 images of dog and cat collected from Internet. 
+  - Dataset: http://bit.ly/30k1jgs contains 25,000 images of dog and cat collected from the internet and sorted into corresponding folders. 
   - Model: This categorical classification model consists of 3 convolution layers, generating 9,563,970 parameters, and has an accuracy of 86.64%. 
   <br>The image belows shows a sample classification peformed by the model, an error of 3/25 (~12%).
 <p align="center">
