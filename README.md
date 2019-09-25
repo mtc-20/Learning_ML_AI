@@ -1,6 +1,7 @@
 ## Machine Learning Projects
 This repository contains my first Machine Learning Projects, forked from @quangnhat185 's [Machine_learning_projects](https://github.com/quangnhat185/Machine_learning_projects). 
-<br>If the notebooks don't load directly from github, you can use [nbviewer](https://nbviewer.jupyter.org/). Belows are brief descriptions and images about the projects: 
+<br>If the notebooks don't load directly from github, you can use [nbviewer](https://nbviewer.jupyter.org/). 
+<br>Below are brief descriptions and images about the projects: 
 
 - [**Dog and Cat classification project**](https://github.com/mtc-20/Machine_learning_projects/blob/MTC/Dog_Cat_classification/CatDogModel.ipynb)  
   - Dataset: http://bit.ly/30k1jgs contains 25,000 images of dog and cat collected from Internet. 
