@@ -1,16 +1,24 @@
 ## Machine_learning_projects
-This repository contains my first personal Machine Learning Projects. To view my notebook directly from github, you can use [nbviewer](https://nbviewer.jupyter.org/). Belows are brief descriptions and images about my projects: 
+This repository contains my first Machine Learning Projects, forked from [Quang](https://github.com/quangnhat185/Machine_learning_projects). 
+If the notebooks don't load directly from github, you can use [nbviewer](https://nbviewer.jupyter.org/). Belows are brief descriptions and images about the projects: 
 
 - **Dog and Cat classification project** (Notebook link: https://github.com/quangnhat185/Machine_learning_projects/blob/master/Dog_Cat_classification/Dog_Cat_classification.ipynb)  
   - Dataset: http://bit.ly/30k1jgs contains 25,000 images of dog and cat collected from Internet. 
-  - My model contains 3 Conv2d layers in the hidden layer and 2 dense layers for output. In total there are approximately 13 millions parameters. Eventually the accuracy of my model achieved was 87.8%.
+  - Model: 
   
 <p align="center">
   <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Dog_Cat_classification/Dog_cat_prediction.png">
 </p>
 <br>
 
-- **Fashion classification with fashion_mnnist datasets of Keras**: (Notebook link:  https://github.com/quangnhat185/Machine_learning_projects/blob/master/Fashion_classification/Fashion_classification.ipynb)
+ - **Fuel Efficiency prediction project** (Notebook link: https://github.com/quangnhat185/Machine_learning_projects/blob/master/Dog_Cat_classification/Dog_Cat_classification.ipynb)  
+  - Dataset: 
+  - This model contains Linear Regression, Support Vector Regression and Gradient Boosting Regressor
+  
+<br>
+
+
+<!-- **Fashion classification with fashion_mnnist datasets of Keras**: (Notebook link:  https://github.com/quangnhat185/Machine_learning_projects/blob/master/Fashion_classification/Fashion_classification.ipynb)
   - Dataset: The fashion_mnist datasets of Keras contains of 60,000 examples and a test set of 10,000 examples
   - My model consists of 597,786 parameters and was trained for 10 epochs. The accuracy is nearly 95%
 <p align="center">
@@ -26,3 +34,4 @@ This repository contains my first personal Machine Learning Projects. To view my
   <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Traffic_classification_Yolov3/T1.png">
   <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Traffic_classification_Yolov3/Vietnam_traffic.gif", width = "1024">
 </p>
+-->
