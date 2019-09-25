@@ -1,19 +1,19 @@
-## Machine_learning_projects
+## Machine Learning Projects
 This repository contains my first Machine Learning Projects, forked from [Quang](https://github.com/quangnhat185/Machine_learning_projects). 
 If the notebooks don't load directly from github, you can use [nbviewer](https://nbviewer.jupyter.org/). Belows are brief descriptions and images about the projects: 
 
-- **Dog and Cat classification project** (Notebook link: https://github.com/quangnhat185/Machine_learning_projects/blob/master/Dog_Cat_classification/Dog_Cat_classification.ipynb)  
+- [**Dog and Cat classification project**](https://github.com/mtc-20/Machine_learning_projects/blob/MTC/Dog_Cat_classification/CatDogModel.ipynb)  
   - Dataset: http://bit.ly/30k1jgs contains 25,000 images of dog and cat collected from Internet. 
-  - Model: 
-  
+  - Model: This categorical classification model consists of 3 convolution layers, generating 9,563,970 parameters, and has an accuracy of 86.64%. 
+  The image belows shows a sample classification peformed by the model, an error of 3/25 (~12%).
 <p align="center">
-  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Dog_Cat_classification/Dog_cat_prediction.png">
+  <img src="https://github.com/mtc-20/Machine_learning_projects/blob/MTC/Dog_Cat_classification/test1.png">
 </p>
-<br>
+<br> 
 
- - **Fuel Efficiency prediction project** (Notebook link: https://github.com/quangnhat185/Machine_learning_projects/blob/master/Dog_Cat_classification/Dog_Cat_classification.ipynb)  
-  - Dataset: 
-  - This model contains Linear Regression, Support Vector Regression and Gradient Boosting Regressor
+ - [**Fuel Efficiency prediction project**]()
+    - Dataset: 
+    - This model contains Linear Regression, Support Vector Regression and Gradient Boosting Regressor
   
 <br>
 
