@@ -1,5 +1,5 @@
 ## Machine Learning Projects
-This repository contains my first Machine Learning Projects, forked from @quangnhat185 's [Machine_learning_projects](https://github.com/quangnhat185/Machine_learning_projects). 
+This repository contains my first Machine Learning Projects, forked from [@quangnhat185 's Machine_learning_projects](https://github.com/quangnhat185/Machine_learning_projects). 
 <br>If the notebooks don't load directly from github, you can use [nbviewer](https://nbviewer.jupyter.org/). 
 <br><br>Below are brief descriptions and images about the projects: 
 
