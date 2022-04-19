@@ -1,12 +1,16 @@
 # Machine Learning Projects
 This repository contains my first Machine Learning Projects, forked from [@quangnhat185 's Machine_learning_projects](https://github.com/quangnhat185/Machine_learning_projects). 
-<br>If the notebooks don't load directly from github, you can use [nbviewer](https://nbviewer.jupyter.org/). 
+
+
+If the notebooks don't load directly from github, you can use [nbviewer](https://nbviewer.jupyter.org/). 
 
 ## Contents
-- Classification Models
-  - [Dog and Cat classification project](#dog-and-cat-classification-project)
-- Regression Models
-  - [Fuel Efficiency prediction project](#fuel-efficiency-prediction-project)
+|Title|Type |
+|---  |:---:|
+|[Cats and dogs](#dog-and-cat-classification-project)|classification|
+|[Fuel Efficiency](#fuel-efficiency-prediction-project)|regression|
+|[Fashion clothing](#fashion-classification-on-the-fashion_mnist-dataset)|classification|
+|[Coming Soon](#coming-soon)|Generators, Recommenders|
 
 ## [**Dog and Cat classification project**](https://github.com/mtc-20/Machine_learning_projects/tree/MTC/Dog_Cat_classification)  
   - Dataset: http://bit.ly/30k1jgs contains 25,000 images of dog and cat collected from the internet and sorted into corresponding folders. 
@@ -21,27 +25,21 @@ This repository contains my first Machine Learning Projects, forked from [@quang
 - Dataset: [Here](https://github.com/mtc-20/Machine_learning_projects/blob/MTC/Fuel_efficiency_prediction/auto-mpg.csv)
 - Model: This [file](https://github.com/mtc-20/Machine_learning_projects/blob/MTC/Fuel_efficiency_prediction/FE_prediction.ipynb) contains Linear Regression, Support Vector Regression and Gradient Boosting Regression models, all of them with test scores of +85%. 
   <p align="center">
-  <img src="https://github.com/mtc-20/Machine_learning_projects/blob/MTC/Fuel_efficiency_prediction/testvspredicted.png">
+  <img src="Fuel_efficiency_prediction/testvspredicted.png">
 </p>
 
-### Coming Up
+## [Fashion classification on the fashion_mnist dataset](Fashion_classification/Fashion_classification.ipynb)
+- Dataset: Fashion_MNIST consisting of 10 different classes
+- Model: 
+  - A [simple CNN](Fashion_classification/fashion_mnist) (on TF2.x) trained for 10 epochs with a test accuracy of 90%. 
+<p align="center">
+  <img src="Fashion_classification/sample_output.png">
+</p>
+ - A SGAN model : **Coming soon**
+
+
+
+## Coming Soon
  - **House Pricing prediction project** : Based on the Boston House price dataset, while this doesn't exactly cover anything radically new, it has some nice data visualizations.
-
-
-<!-- **Fashion classification with fashion_mnnist datasets of Keras**: (Notebook link:  https://github.com/quangnhat185/Machine_learning_projects/blob/master/Fashion_classification/Fashion_classification.ipynb)
-  - Dataset: The fashion_mnist datasets of Keras contains of 60,000 examples and a test set of 10,000 examples
-  - My model consists of 597,786 parameters and was trained for 10 epochs. The accuracy is nearly 95%
-<p align="center">
-  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Fashion_classification/F1.jpg">
-</p>
-<br>
-
-- **Traffic classisfication with YOLOv3**: (Notebook link: https://github.com/quangnhat185/Machine_learning_projects/blob/master/Traffic_classification/Traffic_classification_YOLOv3.ipynb)
-  - Dataset: COCO dataset is a large-scale object-detection dataset which contains of approximately 330K images. 
-  - In this project, I applied YOLOv3 algorithm on the dataset of COCO and pass an image and video through. The results can be seen as below figures: 
-  
-<p align="center">
-  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Traffic_classification_Yolov3/T1.png">
-  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Traffic_classification_Yolov3/Vietnam_traffic.gif", width = "1024">
-</p>
--->
+ - **GANs** : GAN trained on the fashion mnist dataset and a SGAN for classification
+ - **Recommender systems** : A content based movie recommender system
