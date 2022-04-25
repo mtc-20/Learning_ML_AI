@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Model weights
+*.h5
+
+
+# Numpy files
+*.npz
+*.npy
