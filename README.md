@@ -1,5 +1,7 @@
 # Machine Learning Projects
-This repository contains my first Machine Learning Projects, the base taken from [@quangnhat185](https://github.com/quangnhat185) 's [Machine_learning_projects](https://github.com/quangnhat185/Machine_learning_projects). 
+This repository contains my first Machine Learning Projects as notebooks going through each step needed.
+
+The base idea was taken from [@quangnhat185](https://github.com/quangnhat185) 's [Machine_learning_projects](https://github.com/quangnhat185/Machine_learning_projects). 
 
 
 
@@ -12,7 +14,7 @@ This repository contains my first Machine Learning Projects, the base taken from
 |[Object Detection](#object-detection-COCO)|detection|
 |[Coming Soon](#coming-soon)|Generators, Recommenders|
 
-## [**Dog and Cat classification project**](https://github.com/mtc-20/Machine_learning_projects/tree/MTC/Dog_Cat_classification)  
+## [**Dog and Cat classification project**](/Dog_Cat_classification/CatDogModel.ipynb)  
   - Dataset: http://bit.ly/30k1jgs contains 25,000 images of dog and cat collected from the internet and sorted into corresponding folders. 
   - Model: This categorical classification model consists of 3 convolution layers, generating 9,563,970 parameters, and has an accuracy of 86.64%. 
   <br>The image belows shows a sample classification peformed by the model, an error of 3/25 (~12%).
@@ -20,7 +22,7 @@ This repository contains my first Machine Learning Projects, the base taken from
   <img src="Dog_Cat_classification/test1.png" />
 </p> 
 
-## [**Fuel Efficiency prediction project**](https://github.com/mtc-20/Machine_learning_projects/tree/MTC/Fuel_efficiency_prediction)
+## [**Fuel Efficiency prediction project**](Fuel_efficiency_prediction)
 - Dataset: [Here](https://github.com/mtc-20/Machine_learning_projects/blob/MTC/Fuel_efficiency_prediction/auto-mpg.csv)
 - Model: This [file](https://github.com/mtc-20/Machine_learning_projects/blob/MTC/Fuel_efficiency_prediction/FE_prediction.ipynb) contains Linear Regression, Support Vector Regression and Gradient Boosting Regression models, all of them with test scores of +85%. 
 <p align="center">
@@ -36,7 +38,7 @@ This repository contains my first Machine Learning Projects, the base taken from
     </p>
   - SGAN model : **Coming soon**
 
-## [Object detection on COCO]
+## [Object detection on COCO](Object_detection/ssd_base.ipynb)
 - Model(s):  
   - `SSD_mobilenet _v2` and `Efficientdet_D4` trained on the COCO 2017 dataset
 
