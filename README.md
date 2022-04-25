@@ -9,6 +9,7 @@ This repository contains my first Machine Learning Projects, the base taken from
 |[Cats and dogs](#dog-and-cat-classification-project)|classification|
 |[Fuel Efficiency](#fuel-efficiency-prediction-project)|regression|
 |[Fashion clothing](#fashion-classification-on-the-fashion_mnist-dataset)|classification|
+|[Object Detection](#object-detection-COCO)|detection|
 |[Coming Soon](#coming-soon)|Generators, Recommenders|
 
 ## [**Dog and Cat classification project**](https://github.com/mtc-20/Machine_learning_projects/tree/MTC/Dog_Cat_classification)  
@@ -16,7 +17,7 @@ This repository contains my first Machine Learning Projects, the base taken from
   - Model: This categorical classification model consists of 3 convolution layers, generating 9,563,970 parameters, and has an accuracy of 86.64%. 
   <br>The image belows shows a sample classification peformed by the model, an error of 3/25 (~12%).
 <p align="center">
-  <img src="https://github.com/mtc-20/Machine_learning_projects/blob/MTC/Dog_Cat_classification/test1.png" />
+  <img src="Dog_Cat_classification/test1.png" />
 </p> 
 
 ## [**Fuel Efficiency prediction project**](https://github.com/mtc-20/Machine_learning_projects/tree/MTC/Fuel_efficiency_prediction)
@@ -35,7 +36,9 @@ This repository contains my first Machine Learning Projects, the base taken from
     </p>
   - SGAN model : **Coming soon**
 
-
+## [Object detection on COCO]
+- Model(s):  
+  - `SSD_mobilenet _v2` and `Efficientdet_D4` trained on the COCO 2017 dataset
 
 ## Coming Soon
  - **House Pricing prediction project** : Based on the Boston House price dataset, while this doesn't exactly cover anything radically new, it has some nice data visualizations.
