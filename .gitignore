@@ -129,10 +129,14 @@ dmypy.json
 .pyre/
 
 
-# Model weights
+# Model weights an files
 *.h5
+*.tflite
 
 
 # Numpy files
 *.npz
 *.npy
+
+# Movie
+kaggle_dataset/

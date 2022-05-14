@@ -11,8 +11,9 @@ The base idea was taken from [@quangnhat185](https://github.com/quangnhat185) 's
 |[Cats and dogs](#dog-and-cat-classification-project)|classification|
 |[Fuel Efficiency](#fuel-efficiency-prediction-project)|regression|
 |[Fashion clothing](#fashion-classification-on-the-fashion_mnist-dataset)|classification|
-|[Object Detection](#object-detection-COCO)|detection|
-|[Coming Soon](#coming-soon)|Generators, Recommenders|
+|[Object Detection](#object-detection-on-COCO)|detection|
+|[Movie recommendation](#movie-recommendation)|Recommendation system|
+|[Coming Soon](#coming-soon)|Generators|
 
 ## [**Dog and Cat classification project**](/Dog_Cat_classification/CatDogModel.ipynb)  
   - Dataset: http://bit.ly/30k1jgs contains 25,000 images of dog and cat collected from the internet and sorted into corresponding folders. 
@@ -41,6 +42,10 @@ The base idea was taken from [@quangnhat185](https://github.com/quangnhat185) 's
 ## [Object detection on COCO](Object_detection/ssd_base.ipynb)
 - Model(s):  
   - `SSD_mobilenet _v2` and `Efficientdet_D4` trained on the COCO 2017 dataset
+
+
+## [Movie recommendation](Movie_recommendation/Movie_recommender.ipynb)
+- Dataset: Subset of MovieLens dataset
 
 ## Coming Soon
  - **House Pricing prediction project** : Based on the Boston House price dataset, while this doesn't exactly cover anything radically new, it has some nice data visualizations.
